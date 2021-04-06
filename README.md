@@ -9,18 +9,33 @@ Link to the other GitHub and Dashboard of this project
 Requirements to run this app: 
 
 dash==1.12
+
 dash-core-components==1.10.0
+
 dash-html-components==1.0.3
+
 dash_bootstrap_components
+
 dash-renderer==1.4.1
+
 dash-table==4.7.0
+
 Flask==1.1.2
+
 Flask-Compress==1.5.0
+
 gunicorn==20.0.4
+
 numpy==1.18.4
+
 pandas==1.0.3
+
 plotly==4.7.1
+
 requests==2.23.0
+
 pycountry-convert
+
 gevent
+
 PyGithub
