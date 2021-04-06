@@ -62,17 +62,17 @@ def Navbar(page = 'response'):
         )
     ],
     style = {'height' : '2%', 'background-color' : corporate_colors['white']})
-    navbar_response = html.Div([
-        dbc.NavbarSimple(
-            children=[
-                dbc.NavItem(dbc.NavLink(html.H4(children ='Tracker', style = {'font_family':'Arial'}), href="http://covid19-monitor-dashboard.herokuapp.com/")),
-                dbc.NavItem(dbc.NavLink(html.H4(children ="Policy Response", style = navbarcurrentpage), href="/response"))
-            ],
-            sticky="top",
-            className = 'col-8'
-        )
-    ],
-    style = {'height' : '2%', 'background-color' : corporate_colors['white']})
+    #navbar_response = html.Div([
+    #    dbc.NavbarSimple(
+    #        children=[
+    #            dbc.NavItem(dbc.NavLink(html.H4(children ='Tracker', style = {'font_family':'Arial'}), href="http://covid19-monitor-dashboard.herokuapp.com/")),
+    #            dbc.NavItem(dbc.NavLink(html.H4(children ="Policy Response", style = navbarcurrentpage), href="/response"))
+    #        ],
+    #        sticky="top",
+    #        className = 'col-8'
+    #   )
+    #],
+    #style = {'height' : '2%', 'background-color' : corporate_colors['white']})
     if page == 'response':
         return navbar_response
     #else:
