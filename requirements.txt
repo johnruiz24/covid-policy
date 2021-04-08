@@ -13,4 +13,3 @@ plotly
 requests
 pycountry-convert
 gevent
-PyGithub
